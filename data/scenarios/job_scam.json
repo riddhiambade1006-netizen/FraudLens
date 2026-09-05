@@ -1,0 +1,38 @@
+{
+  "id": 3,
+  "category": "Employment",
+  "type": "YouTube Video Liking Job Scam",
+  "difficulty": "Easy",
+  "sender": "Global HR Recruiter / Telegram",
+  "senderType": "Telegram",
+  "timestamp": "Yesterday, 04:30 PM",
+  "message": "Greetings! We have part-time digital assistant openings. Earn ₹2,000 to ₹10,000 daily simply by watching and subscribing to YouTube clips. To assign your daily task sheet, a refundable security deposit of ₹750 is required.",
+  "isScam": true,
+  "correctActionId": "action-2",
+  "explanation": "Task-based job scams lure victims with initial small token payouts before demanding larger and larger \"prepaid investments\" or \"gas fees\", ultimately disappearing with all deposited money.",
+  "redFlags": [
+    "Unrealistically high payout for menial tasks",
+    "Demands advance fee / deposit before working",
+    "Unsolicited offer via Telegram/WhatsApp"
+  ],
+  "choices": [
+    {
+      "id": "action-1",
+      "text": "Pay ₹750 deposit since it is refundable and start earning immediately",
+      "isCorrect": false,
+      "feedback": "Scam Trapped! They will ask for ₹5,000 next, then ₹25,000, and you will never recover a single rupee."
+    },
+    {
+      "id": "action-2",
+      "text": "Block sender and report account; legitimate employers never charge registration fees",
+      "isCorrect": true,
+      "feedback": "Perfect! No genuine company ever asks candidates to pay fees for job offers."
+    },
+    {
+      "id": "action-3",
+      "text": "Ask if they have an office in your city to do an in-person interview",
+      "isCorrect": false,
+      "feedback": "They operate through disposable virtual numbers and will send fake registered office addresses."
+    }
+  ]
+}

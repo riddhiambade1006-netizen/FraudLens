@@ -1,0 +1,38 @@
+{
+  "id": 5,
+  "category": "Lending Frauds",
+  "type": "Instant No-CIBIL Personal Loan Disbursal",
+  "difficulty": "Medium",
+  "sender": "FastCash Loans / SMS Shortcode",
+  "senderType": "SMS",
+  "timestamp": "Today, 01:20 PM",
+  "message": "Congratulations! Pre-approved personal loan of ₹5,00,000 sanctioned at 1% interest. No CIBIL score or income proof needed. Pay mandatory file processing fee of ₹1,999 to bank escrow via UPI to release funds.",
+  "isScam": true,
+  "correctActionId": "action-2",
+  "explanation": "Regulated banks and NBFCs deduct processing charges directly from the loan disbursal amount; they NEVER demand upfront advance payments via personal UPI handles.",
+  "redFlags": [
+    "Unsolicited loan pre-approval without credit check",
+    "Requires upfront processing fee via UPI before disbursal",
+    "Unrealistically low interest rate (1%)"
+  ],
+  "choices": [
+    {
+      "id": "action-1",
+      "text": "Transfer ₹1,999 processing fee via UPI to unlock loan",
+      "isCorrect": false,
+      "feedback": "Advance Fee Trap! After receiving ₹1,999, they will demand GST fees, insurance fees, and never send a loan."
+    },
+    {
+      "id": "action-2",
+      "text": "Reject and report; legitimate lenders never demand advance UPI fees to disburse loans",
+      "isCorrect": true,
+      "feedback": "Spot on! Upfront advance fees for loans are an absolute hallmark of loan fraud."
+    },
+    {
+      "id": "action-3",
+      "text": "Send Aadhaar and PAN documents to negotiate a lower fee",
+      "isCorrect": false,
+      "feedback": "Identity Theft Risk! Fraudsters use your KYC documents to take fraudulent SIM cards or loans in your name."
+    }
+  ]
+}

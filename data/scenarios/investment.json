@@ -1,0 +1,38 @@
+{
+  "id": 4,
+  "category": "Investments",
+  "type": "High-Yield Crypto Algorithmic Bot",
+  "difficulty": "Hard",
+  "sender": "CryptoTrade VIP Club / Discord",
+  "senderType": "Discord",
+  "timestamp": "Today, 09:10 AM",
+  "message": "Exclusive Insider Syndicate: Our AI arbitrage bot guarantees 25% weekly profit with 100% principal protection. Over 1,200 investors joined this month. Minimum deposit: $250. Withdraw anytime with zero lock-in period.",
+  "isScam": true,
+  "correctActionId": "action-1",
+  "explanation": "No financial market investment can ever guarantee 25% weekly returns with zero risk. This is a classic Ponzi scheme / Pig Butchering syndicate.",
+  "redFlags": [
+    "Guaranteed high returns with \"zero risk\"",
+    "Social proof claims (\"1,200 investors joined\")",
+    "Unregulated crypto platform solicitation"
+  ],
+  "choices": [
+    {
+      "id": "action-1",
+      "text": "Identify as Investment Ponzi; report and ignore the solicitation",
+      "isCorrect": true,
+      "feedback": "Masterful awareness! Any promise of guaranteed returns with no risk is fundamentally fraudulent."
+    },
+    {
+      "id": "action-2",
+      "text": "Deposit minimum $250 to see if the first withdrawal actually works",
+      "isCorrect": false,
+      "feedback": "Trap! They often allow the first $20 withdrawal to build false confidence, baiting you into depositing $5,000."
+    },
+    {
+      "id": "action-3",
+      "text": "Ask for the company registration certificate to verify legality",
+      "isCorrect": false,
+      "feedback": "Fraudsters routinely present forged UK/Dubai shell company certificates."
+    }
+  ]
+}

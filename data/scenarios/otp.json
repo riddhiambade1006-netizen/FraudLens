@@ -1,0 +1,39 @@
+{
+  "id": 1,
+  "category": "Banking / OTP",
+  "type": "Bank Account Suspension OTP Scam",
+  "difficulty": "Easy",
+  "sender": "HDFC-ALERT / +91 98210-XXXXX",
+  "senderType": "SMS",
+  "timestamp": "Today, 11:42 AM",
+  "message": "Dear Customer, your HDFC Bank account will be BLOCKED within 2 hours due to pending PAN KYC. Click http://hdfc-pan-update.cc immediately and submit the 6-digit OTP sent to your phone to prevent account deactivation.",
+  "isScam": true,
+  "correctActionId": "action-2",
+  "explanation": "Banks never send shortened or unofficial URLs (like .cc domains) or threaten immediate suspension demanding an OTP. OTPs are ONLY for authorizing transactions or password resets, never for identity verification.",
+  "redFlags": [
+    "Urgency tactic (\"BLOCKED within 2 hours\")",
+    "Unofficial domain (hdfc-pan-update.cc)",
+    "Request to share OTP",
+    "Generic greeting (\"Dear Customer\")"
+  ],
+  "choices": [
+    {
+      "id": "action-1",
+      "text": "Click the link and submit OTP right away to keep account active",
+      "isCorrect": false,
+      "feedback": "Dangerous! You just handed your OTP and credentials to fraudsters who would instantly drain your funds."
+    },
+    {
+      "id": "action-2",
+      "text": "Do not click; ignore SMS and verify status via the official HDFC Mobile App",
+      "isCorrect": true,
+      "feedback": "Spot on! Legitimate banks never ask for OTPs via links. Checking directly on the official app is the gold standard."
+    },
+    {
+      "id": "action-3",
+      "text": "Reply to the sender asking for their official employee ID number",
+      "isCorrect": false,
+      "feedback": "Ineffective. Scammers easily forge employee credentials or use bots to fabricate badges."
+    }
+  ]
+}

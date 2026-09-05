@@ -1,0 +1,38 @@
+{
+  "id": 2,
+  "category": "UPI / Payments",
+  "type": "UPI \"Money Received\" QR Code Trick",
+  "difficulty": "Medium",
+  "sender": "OLX Buyer / Unknown WhatsApp",
+  "senderType": "WhatsApp",
+  "timestamp": "Today, 02:15 PM",
+  "message": "Hey, I am purchasing your furniture listing for ₹8,500. I have initiated payment through PhonePe. Kindly scan this QR code and punch in your 4-digit UPI PIN to receive the money directly into your bank.",
+  "isScam": true,
+  "correctActionId": "action-2",
+  "explanation": "Golden Rule of UPI: You NEVER need to scan a QR code or enter your UPI PIN to RECEIVE money. Entering your PIN ALWAYS transfers money OUT of your account.",
+  "redFlags": [
+    "Claims entering UPI PIN is required to receive funds",
+    "Sends QR code claiming it will credit your account",
+    "Buyer rushing the transaction without inspecting item"
+  ],
+  "choices": [
+    {
+      "id": "action-1",
+      "text": "Scan QR code and enter UPI PIN so payment clears",
+      "isCorrect": false,
+      "feedback": "Critical Mistake! Entering your PIN will instantly deduct ₹8,500 from your account and send it to the thief."
+    },
+    {
+      "id": "action-2",
+      "text": "Decline and inform buyer that receiving UPI payments NEVER requires a PIN",
+      "isCorrect": true,
+      "feedback": "Excellent defense! UPI PIN is solely for authenticating outgoing debit transactions."
+    },
+    {
+      "id": "action-3",
+      "text": "Scan the QR code but enter a fake 4-digit PIN to test them",
+      "isCorrect": false,
+      "feedback": "Risky! Scanning untrusted QR codes could trigger malicious intents or app exploits."
+    }
+  ]
+}

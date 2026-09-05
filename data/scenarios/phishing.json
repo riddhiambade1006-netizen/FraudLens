@@ -1,0 +1,34 @@
+{
+  "id": 6,
+  "category": "Legitimate Notification",
+  "type": "Standard Credit Card Monthly Statement",
+  "difficulty": "Medium",
+  "sender": "ICICI-BANK / Official Shortcode",
+  "senderType": "SMS",
+  "timestamp": "Yesterday, 07:00 PM",
+  "message": "Your ICICI Bank Credit Card statement ending in XX4019 for cycle ending 02-Sep-2026 is generated. Minimum Due: INR 0. Total Due: INR 4,320. Due Date: 22-Sep-2026. View details via iMobile app or NetBanking.",
+  "isScam": false,
+  "correctActionId": "action-1",
+  "explanation": "Notice how this genuine message includes masked card digits, specific balances, contains NO suspicious shortened URLs, and instructs user to check via the official app.",
+  "redFlags": [],
+  "choices": [
+    {
+      "id": "action-1",
+      "text": "Recognize as legitimate bank notification; no suspicious links or urgent OTP demands present",
+      "isCorrect": true,
+      "feedback": "Correct! Genuine communications reference your masked credentials and never panic you into clicking unverified links."
+    },
+    {
+      "id": "action-2",
+      "text": "Flag as Scam and report sender to police",
+      "isCorrect": false,
+      "feedback": "False Positive. Blocking your genuine bank alert shortcode might prevent you from seeing real fraudulent transactions."
+    },
+    {
+      "id": "action-3",
+      "text": "Call random online numbers claiming to be customer service",
+      "isCorrect": false,
+      "feedback": "Risky! Many search engine customer service numbers are poisoned by scammers."
+    }
+  ]
+}

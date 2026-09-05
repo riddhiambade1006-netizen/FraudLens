@@ -1,0 +1,98 @@
+message,label,is_fraud
+"Dear customer your SBI account has been blocked due to pending KYC update. Click http://sbi-kyc-auth.cc to verify OTP immediately",Banking_OTP,1
+"Your HDFC debit card has been disabled. Submit one-time password at http://hdfc-verify.cc to reactivate",Banking_OTP,1
+"URGENT: ICICI Bank alert. We noticed suspicious login from Moscow. Enter OTP sent to phone to cancel transfer",Banking_OTP,1
+"Axis Bank Notice: Your netbanking will terminate in 1 hour. Verify phone number and submit OTP to restore access",Banking_OTP,1
+"Dear user your PNB account will be suspended today. Share the 6 digit verification code received on SMS to avoid suspension",Banking_OTP,1
+"Bank of Baroda alert: Your debit card is locked. Share OTP received on your mobile to unlock card immediately",Banking_OTP,1
+"Canara Bank: Critical security alert. Unrecognized debit of Rs 45000 scheduled. To decline, provide OTP to bank officer",Banking_OTP,1
+"Your Kotak 811 account KYC has expired. Complete biometric verification with OTP at http://kotak-portal.link",Banking_OTP,1
+"Security Alert: Your one-time password for transaction authorization is 492019. Do not disclose this OTP to anyone including bank staff",Legitimate,0
+"Your HDFC Bank OTP for login is 839102. Valid for 3 mins. Bank never calls asking for OTP",Legitimate,0
+"Your SBI NetBanking profile password changed successfully on 05-Sep-2026. If not you, contact 1800112211",Legitimate,0
+"Dear Customer, INR 5,200 credited to your ICICI Bank account XX3021 via NEFT from Acme Corp. Balance: INR 38,400",Legitimate,0
+"Your electricity bill payment of INR 1,480 is successful. Transaction reference #TXN902819. Consumer ID 8391028",Legitimate,0
+"Your Swiggy order #928192 has been delivered by delivery partner Rahul. Enjoy your meal!",Legitimate,0
+"Hi, I accidentally sent Rs 5000 to your PhonePe account. Please scan this QR code and enter your UPI PIN to approve the refund",UPI_Fraud,1
+"Google Pay Prize: You won Rs 2000 cashback reward. Scan this QR code and punch in UPI PIN to deposit cash into your account",UPI_Fraud,1
+"Paytm Refund Department: Your payment of Rs 1200 failed. Accept collect request and enter UPI PIN to receive money back",UPI_Fraud,1
+"OLX Buyer payment confirmation: Scan QR to receive Rs 7500 for your used bicycle listing directly in your bank account",UPI_Fraud,1
+"Dear user, you have received a payment request of Rs 4000 on BHIM UPI. Enter PIN to complete the credit to your balance",UPI_Fraud,1
+"Flipkart Marketplace reward: Approve collect request on PhonePe to claim your festival voucher of Rs 3500",UPI_Fraud,1
+"PhonePe Support: To clear blocked money of Rs 8000, kindly scan the attached merchant QR and verify using your 4 digit PIN",UPI_Fraud,1
+"Earn Rs 8000 to Rs 15000 daily from home by liking YouTube videos and rating hotels on Google Maps. No skills needed",Job_Scam,1
+"Global HR Recruitment: Part-time data operator required. Earn Rs 500 per task. Join our Telegram group for immediate start",Job_Scam,1
+"Work from home opportunity for students and housewives. Earn Rs 25000 per week. Refundable registration fee Rs 499 required",Job_Scam,1
+"Congratulations! Your resume is shortlisted for Amazon remote review evaluator. Pay Rs 750 onboarding fee to receive task sheet",Job_Scam,1
+"TikTok and Instagram influencer marketing assistant job. Daily payout Rs 3000 to Rs 6000. Contact via WhatsApp link",Job_Scam,1
+"Data entry work from home without investment. Earn Rs 1200 daily. Just deposit Rs 300 document courier charge on UPI",Job_Scam,1
+"Netflix caption reviewer needed. Flexible hours, Rs 500 per hour. Pay Rs 800 security deposit to join VIP training session",Job_Scam,1
+"Exclusive Crypto Arbitrage: Guaranteed 25% weekly profit with 100% principal protection. Minimum deposit 100 USDT",Investment_Ponzi,1
+"Double your money in 7 days! Join our VIP Forex trading signals syndicate. 500+ satisfied investors earning daily",Investment_Ponzi,1
+"Government approved high return mutual fund scheme. Guaranteed 50% monthly profit with zero risk. Register now",Investment_Ponzi,1
+"Invest in revolutionary AI token pre-sale. 1000x returns guaranteed upon listing. Send Ethereum to wallet address",Investment_Ponzi,1
+"Earn guaranteed passive income of Rs 5000 daily with our automated cloud mining server. Free trial bonus included",Investment_Ponzi,1
+"Stock market insider tips group: 100% accurate buy calls with 10x leverage. Transfer membership fee to access premium channel",Investment_Ponzi,1
+"Gold trading algorithmic robot guarantees 40% returns every month. Zero loss warranty backed by international contract",Investment_Ponzi,1
+"Instant personal loan of Rs 5,00,000 pre-approved without CIBIL score or salary slip. Pay Rs 1,999 processing fee to disburse",Loan_Scam,1
+"Dhani Finance: Quick loan of Rs 2,00,000 sanctioned at 1% interest. Transfer file verification charges via UPI to unlock cash",Loan_Scam,1
+"Immediate emergency loan for bad credit score. Zero documentation. Pay advance insurance premium of Rs 2500 to release funds",Loan_Scam,1
+"Pre-sanctioned business loan of Rs 10 Lakhs approved under government subsidy. Pay processing fee Rs 3999 via Google Pay",Loan_Scam,1
+"Easy Cash Loan App: Your loan of Rs 50,000 is waiting. Download APK from link and pay security deposit to receive transfer",Loan_Scam,1
+"Instant payday loan approved in 5 minutes. Transfer document stamp fee Rs 1499 to manager UPI to get instant bank credit",Loan_Scam,1
+"Your courier parcel FX-92810 has been detained due to unpaid customs clearance. Click http://fedex-customs-pay.link/fee",Phishing_URL,1
+"Income tax refund of Rs 15,490 approved. Submit bank login credentials at http://incometax-efiling-refund.cc to claim",Phishing_URL,1
+"Netflix: Your payment method failed. Update card details within 24 hours at http://netflix-billing-update.top to keep access",Phishing_URL,1
+"Apple ID security notice: Your iCloud is locked. Verify identity at http://appleid-security-login.xyz to avoid permanent lock",Phishing_URL,1
+"WhatsApp account expiration warning. Update WhatsApp to version 2026 at http://whatsapp-update-free.link before tomorrow",Phishing_URL,1
+"Your Aadhaar card has been suspended by UIDAI. Click http://aadhaar-verification-portal.link and upload biometric details",Phishing_URL,1
+"Your Amazon account is on hold due to suspicious login. Review order #112-92819 at http://amazon-security-check.link",Phishing_URL,1
+"Your monthly mobile bill for Vodafone Postpaid is generated: INR 699 due on 18-Sep-2026. Pay via MyVi app or NetBanking",Legitimate,0
+"Uber: Your ride with driver Ramesh is arriving in 3 mins in White Honda Amaze (DL-10-AB-1234). Safety PIN: 9281",Legitimate,0
+"State Bank of India: Your request for cheque book dispatch has been registered. Tracking ID: SP9281029 via India Post",Legitimate,0
+"Your monthly statement for Axis Bank Credit Card ending in 9021 for billing cycle August 2026 is available in NetBanking",Legitimate,0
+"Zomato: Order #9281 delivered. Rate your delivery experience and get 10% off on your next dinner order",Legitimate,0
+"TATA Power DDL: Payment of Rs 2,450 received against CA 6001928372. Thank you for timely bill payment",Legitimate,0
+"IRCTC: Train 12952 Mumbai Rajdhani departs from Platform 2 at 16:55. Your coach is B3, berth 42 (Side Lower)",Legitimate,0
+"Google Security alert: New sign-in detected on Windows device in Mumbai. Check activity on your Google Account dashboard",Legitimate,0
+"Airtel broadband recharge of Rs 999 is successful. Your unlimited 100Mbps plan is valid till 05-Oct-2026",Legitimate,0
+"Mutual Fund SIP installment of INR 5,000 for Nippon India Small Cap Fund successfully debited on 05-Sep-2026 via mandate",Legitimate,0
+"Your flight 6E-204 from Delhi to Bengaluru is on time. Web check-in opens 48 hours prior to scheduled departure",Legitimate,0
+"BookMyShow: Booking confirmed for 2 tickets at PVR Phoenix Mall. Screen 4, Row G seats 12-13. Show time: 7:30 PM",Legitimate,0
+"Amazon.in: Your order containing Wireless Mouse has been shipped and will arrive tomorrow by 8 PM. Track in app",Legitimate,0
+"Apollo 24|7: Your lab test report for Complete Blood Count is ready. Download from your medical records portal",Legitimate,0
+"Jio: Daily 2GB high speed data limit reached. Data speed will be reduced to 64Kbps till midnight. Recharge for booster",Legitimate,0
+"Your salary for the month of August 2026 has been credited to your salary account XX9281. Ref: CMS-SALARY-AUG26",Legitimate,0
+"ALERT: Your bank account will be blocked today. Click http://bank-kyc-verify.cc and submit OTP to prevent closure",Banking_OTP,1
+"Paytm KYC warning: Wallet deactivated. Call +91-9876543210 and share OTP to reactivate your Paytm payment balance",Banking_OTP,1
+"Scan this QR code in GPay and enter UPI PIN to receive festival lottery reward of Rs 25000",UPI_Fraud,1
+"Part time job: Earn Rs 1000 per video review. Join Telegram channel and deposit Rs 500 registration charge",Job_Scam,1
+"Instant loan approved without documents! Pay Rs 999 processing charge to get Rs 1,00,000 disbursed instantly in account",Loan_Scam,1
+"Guaranteed 100% profit in crypto bot trading. Zero risk daily income. Contact WhatsApp broker for VIP entry",Investment_Ponzi,1
+"FedEx Mumbai: Your international package is seized by police. Click http://customs-fine-portal.cc to pay clearance fee",Phishing_URL,1
+"Electricity connection will be disconnected tonight at 9:30 PM due to unpaid bill. Call electricity officer at 98765-43210",Phishing_URL,1
+"Congratulations! You won Rs 25,00,000 in KBC Lucky Draw. To claim prize money, deposit Rs 12,500 government tax fee",Investment_Ponzi,1
+"Dear SBI user, your reward points worth Rs 9,850 are expiring today. Redeem cash directly to account at http://sbi-reward.cc",Banking_OTP,1
+"Your Jio SIM card will be deactivated in 24 hours due to unverified KYC. Click http://jio-kyc-update.link immediately",Phishing_URL,1
+"Pay your HDFC loan EMI of INR 18,450 by 10-Sep-2026 through auto-debit or official NetBanking portal to avoid late fee",Legitimate,0
+"Dear Customer, your transaction of INR 350 at Starbucks Coffee on 05-Sep-2026 was authorized with your Visa Debit Card",Legitimate,0
+"Your EPF passbook statement for financial year 2025-2026 is updated. Check contributions on official EPFO Unified Portal",Legitimate,0
+"Your car insurance policy #BA-928102 is expiring in 15 days. Renew on your insurer mobile app to retain No Claim Bonus",Legitimate,0
+"Your passport application is under review at Regional Passport Office. Track status on passportindia.gov.in",Legitimate,0
+"Your monthly SIP of Rs 2,500 for Parag Parikh Flexi Cap Fund executed successfully. Units allotted at NAV Rs 78.42",Legitimate,0
+"LinkedIn: You have 3 new connection requests and 5 profile views this week. Review in your LinkedIn professional feed",Legitimate,0
+"Your income tax e-verification is completed successfully for ITR-1 AY 2026-27. Acknowledgement number #9281029381",Legitimate,0
+"Swiggy Instamart: Your grocery delivery will arrive in 9 minutes. Delivery partner is on the way",Legitimate,0
+"Your Uber receipt: INR 280 for trip from Airport to Tech Park. Paid via linked Amazon Pay balance",Legitimate,0
+"Dear customer, your credit card annual fee waiver has been approved as per loyalty tier. No action required",Legitimate,0
+"BigBasket: Your order containing 12 items will be delivered today between 5 PM and 7 PM. Slot confirmed",Legitimate,0
+"Your FASTag account was debited with Rs 85 at Toll Plaza NH-48. Available FASTag balance is Rs 640",Legitimate,0
+"BSNL Mobile alert: Your talktime balance is below Rs 10. Recharge via BSNL Selfcare app or retailer",Legitimate,0
+"MakeMyTrip: Flight booking 6E-812 confirmed for 2 passengers from DEL to BOM on 14-Sep-2026. E-ticket sent to email",Legitimate,0
+"Your Ola cab is booked. Driver Satish in Silver Swift Dzire. OTP to start ride is 4182. Do not share OTP before boarding",Legitimate,0
+"Your Airtel DTH account #300291028 is recharged with Rs 450. Pack valid till 05-Oct-2026. Enjoy 300+ channels",Legitimate,0
+"Your Zerodha trading account dividend of INR 450 for ITC Ltd credited directly to primary bank account",Legitimate,0
+"Dominos Pizza order #412 confirmed. Your hot pizza is being baked and will be delivered in 25 minutes",Legitimate,0
+"Cult.fit: Your gym workout slot is booked for 6:00 PM today at Indiranagar center. Check in using QR code on arrival",Legitimate,0
+"Your DigiLocker account: Driving License successfully pulled from Ministry of Road Transport database",Legitimate,0
+"ICICI Lombard Health Insurance: Hospital cashless pre-authorization of Rs 65,000 approved for claim #CL-92810",Legitimate,0
